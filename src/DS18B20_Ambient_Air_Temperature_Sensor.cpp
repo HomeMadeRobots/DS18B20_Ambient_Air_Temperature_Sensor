@@ -9,10 +9,10 @@
 /* Constructor */
 DS18B20_Ambient_Air_Temperature_Sensor::DS18B20_Ambient_Air_Temperature_Sensor( 
 	i_One_Wire_Protocol* a_one_wire_protocol,
-	T_One_Wire_Device_Address a_device_address )
+	const T_One_Wire_Device_Address* a_device_address )
 {
 	this->One_Wire_Comm = a_one_wire_protocol;
-	memcpy(this->Device_Address, a_device_address, 8);
+	this->Device_Address = a_device_address;
 }
 /**************************************************************************************************/
 

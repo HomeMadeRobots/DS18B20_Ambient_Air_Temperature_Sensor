@@ -21,7 +21,7 @@ public :
     /* Constructor */
     DS18B20_Ambient_Air_Temperature_Sensor( 
 		i_One_Wire_Protocol* a_one_wire_protocol,
-		T_One_Wire_Device_Address a_device_address );
+		const T_One_Wire_Device_Address* a_device_address );
 
     /*--------------------------------------------------------------------------------------------*/
     /* Component_Type_Operations */
@@ -43,7 +43,7 @@ private :
     /*--------------------------------------------------------------------------------------------*/
     /* Private attributes */
 	typedef enum T_DS18B20_ACTION { CONVERT_TEMPERATURE, READ_SCRATCHPAD} T_DS18B20_ACTION;
-	T_One_Wire_Device_Address Device_Address;
+	const T_One_Wire_Device_Address* Device_Address;
 	T_AMBIENT_AIR_TEMPERATURE Air_Temperature = 0;
 	T_DS18B20_ACTION Last_Performed_Action = READ_SCRATCHPAD;
 
