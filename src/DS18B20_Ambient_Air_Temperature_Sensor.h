@@ -19,9 +19,9 @@ class DS18B20_Ambient_Air_Temperature_Sensor : i_Ambient_Air_Temperature {
 public :
     /*--------------------------------------------------------------------------------------------*/
     /* Constructor */
-    DS18B20_Ambient_Air_Temperature_Sensor( 
-		i_One_Wire_Protocol* a_one_wire_protocol,
-		const T_One_Wire_Device_Address* a_device_address );
+	DS18B20_Ambient_Air_Temperature_Sensor( void ) {}
+	DS18B20_Ambient_Air_Temperature_Sensor( const T_One_Wire_Device_Address* a_device_address );
+    void Connect_Ports( i_One_Wire_Protocol* a_one_wire_protocol);
 
     /*--------------------------------------------------------------------------------------------*/
     /* Component_Type_Operations */
