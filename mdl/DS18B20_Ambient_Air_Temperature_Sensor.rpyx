@@ -132,8 +132,8 @@
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">DS18B20_Ambient_Air_Temperature_Sensor</_name>
-			<_modifiedTimeWeak type="a">2.18.2020::12:52:52</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.18.2020::12:52:52</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.24.2020::12:18:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.24.2020::12:18:18</_modifiedTime>
 			<_lastID type="a">5</_lastID>
 			<_UserColors type="w">
 				<IRPYRawContainer type="e">
@@ -166,7 +166,6 @@
 			<_component type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IComponent</_hm2Class>
-					<_hname type="a">DefaultComponent</_hname>
 					<_hid type="a">GUID 26eafdf5-6fce-47bb-9327-8c03619c14c6</_hid>
 				</IHandle>
 			</_component>
@@ -230,25 +229,25 @@
 		</IProject>
 		<IProfile type="e">
 			<fileName type="a">Software_Detailed_Design_Metamodel</fileName>
-			<_persistAs type="a">..\..\..\Software_Model_Toolset\Rhapsody_Profiles</_persistAs>
+			<_persistAs type="a">..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles</_persistAs>
 			<_id type="a">GUID e6dd7000-5327-4839-ad4b-6da8f8351563</_id>
 			<_partOfTheModelKind type="a">referenceunit</_partOfTheModelKind>
 		</IProfile>
 		<IProfile type="e">
 			<fileName type="a">Project_Metamodel</fileName>
-			<_persistAs type="a">..\..\..\Software_Model_Toolset\Rhapsody_Profiles</_persistAs>
+			<_persistAs type="a">..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles</_persistAs>
 			<_id type="a">GUID 8bd5e492-f817-4ae3-bbe5-45e3bd35c53b</_id>
 			<_partOfTheModelKind type="a">referenceunit</_partOfTheModelKind>
 		</IProfile>
 		<IProfile type="e">
 			<fileName type="a">Software_Data_Type_Metamodel</fileName>
-			<_persistAs type="a">..\..\..\Software_Model_Toolset\Rhapsody_Profiles</_persistAs>
+			<_persistAs type="a">..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles</_persistAs>
 			<_id type="a">GUID fb48d6a1-4193-4abc-a7e4-2e98bfe4df96</_id>
 			<_partOfTheModelKind type="a">referenceunit</_partOfTheModelKind>
 		</IProfile>
 		<IProfile type="e">
 			<fileName type="a">Physical_Software_Architecture_Metamodel</fileName>
-			<_persistAs type="a">..\..\..\Software_Model_Toolset\Rhapsody_Profiles</_persistAs>
+			<_persistAs type="a">..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles</_persistAs>
 			<_id type="a">GUID bb29a72d-49ef-4089-aecf-c6eccb6b7ac8</_id>
 			<_partOfTheModelKind type="a">referenceunit</_partOfTheModelKind>
 		</IProfile>
@@ -273,9 +272,166 @@
 			<_id type="a">GUID 5b24cd4d-32da-4d1c-95fb-603904d85360</_id>
 		</ISubsystem>
 		<IComponent type="e">
-			<fileName type="a">DefaultComponent</fileName>
 			<_id type="a">GUID 26eafdf5-6fce-47bb-9327-8c03619c14c6</_id>
+			<_myState type="a">139264</_myState>
+			<_name type="a">DefaultComponent</_name>
+			<_modifiedTimeWeak type="a">4.24.2020::12:18:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.24.2020::12:18:18</_modifiedTime>
+			<m_buildType type="a">Executable</m_buildType>
+			<m_configActive type="r">
+				<ICodeGenConfigInfoHandle type="e">
+					<_hm2Class type="a">ICodeGenConfigInfo</_hm2Class>
+					<_hname type="a">DefaultComponent\DefaultConfig</_hname>
+					<_hid type="a">GUID 95c0afc7-a4d3-4ef6-b5eb-88701ad991a9</_hid>
+				</ICodeGenConfigInfoHandle>
+			</m_configActive>
+			<HandlesInMe type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">8</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IProfile</_hm2Class>
+							<_hname type="a">Software_Detailed_Design_Metamodel</_hname>
+							<_hid type="a">GUID e6dd7000-5327-4839-ad4b-6da8f8351563</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IProfile</_hm2Class>
+							<_hname type="a">Project_Metamodel</_hname>
+							<_hid type="a">GUID 8bd5e492-f817-4ae3-bbe5-45e3bd35c53b</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IProfile</_hm2Class>
+							<_hname type="a">Software_Data_Type_Metamodel</_hname>
+							<_hid type="a">GUID fb48d6a1-4193-4abc-a7e4-2e98bfe4df96</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IProfile</_hm2Class>
+							<_hname type="a">Physical_Software_Architecture_Metamodel</_hname>
+							<_hid type="a">GUID bb29a72d-49ef-4089-aecf-c6eccb6b7ac8</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hname type="a">Ambient_Air_Temperature_Interfaces</_hname>
+							<_hid type="a">GUID 86f50dbc-2063-4ef7-a13c-33cc8c406171</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hname type="a">DS18B20_Ambient_Air_Temperature_Sensor</_hname>
+							<_hid type="a">GUID 0e3e9e10-7564-426d-a52c-03d5a364c7d5</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hname type="a">One_Wire_Interfaces</_hname>
+							<_hid type="a">GUID 1264971e-5fb2-419e-b507-78327d6bdf0a</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hname type="a">DS18B20_Ambient_Air_Temperature_Sensor_Design</_hname>
+							<_hid type="a">GUID 5b24cd4d-32da-4d1c-95fb-603904d85360</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</HandlesInMe>
+			<VariationPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</VariationPoints>
+			<SelectedVariants type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</SelectedVariants>
+			<weakCGTime type="a">4.24.2020::12:18:18</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<AggregatesList type="e">
+				<value>GUID acad8ae3-c702-487a-822d-fb741c97a0ba</value>
+				<value>GUID 95c0afc7-a4d3-4ef6-b5eb-88701ad991a9</value>
+			</AggregatesList>
 		</IComponent>
+		<IFolder type="e">
+			<_id type="a">GUID acad8ae3-c702-487a-822d-fb741c97a0ba</_id>
+			<_myState type="a">73728</_myState>
+			<_name type="a">Files</_name>
+			<_modifiedTimeWeak type="a">1.24.2020::13:5:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.24.2020::13:5:19</_modifiedTime>
+			<Elements type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Elements>
+			<Files type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Files>
+		</IFolder>
+		<ICodeGenConfigInfo type="e">
+			<_id type="a">GUID 95c0afc7-a4d3-4ef6-b5eb-88701ad991a9</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DefaultConfig</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.24.2020::13:5:19</_modifiedTime>
+			<_scopeType type="a">Explicit</_scopeType>
+			<_instrumentation type="a">Animation</_instrumentation>
+			<_timeModel type="a">RealTime</_timeModel>
+			<m_generateActors type="a">1</m_generateActors>
+			<_statechartImplementation type="a">Flat</_statechartImplementation>
+			<_checksList type="a">0 ,</_checksList>
+			<ScopeElements type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</ScopeElements>
+			<InitialInstances type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</InitialInstances>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<AnimScopeElements type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</AnimScopeElements>
+			<m_allInAnimScope type="a">1</m_allInAnimScope>
+			<m_generateUsecases type="a">0</m_generateUsecases>
+			<AggregatesList type="e">
+				<value>GUID 26dc4cf4-9d62-4687-9100-d10fa5eca28f</value>
+			</AggregatesList>
+		</ICodeGenConfigInfo>
+		<IFolder type="e">
+			<_id type="a">GUID 26dc4cf4-9d62-4687-9100-d10fa5eca28f</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DefaultConfig</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.24.2020::13:5:19</_modifiedTime>
+			<Elements type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Elements>
+			<Files type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Files>
+		</IFolder>
 		
 	</RHAPSODY-MODEL>
 	<OslcLinks type="c">

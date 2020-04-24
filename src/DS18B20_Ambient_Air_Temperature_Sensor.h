@@ -2,66 +2,62 @@
 #define DS18B20_AMBIENT_AIR_TEMPERATURE_SENSOR_H
 
 
+/*============================================================================*/
+/* Inclusions */
+/*============================================================================*/
 /* Attributes */
-#include "T_AMBIENT_AIR_TEMPERATURE.h"
+#include "T_Ambient_Air_Temperature.h"
 #include "T_One_Wire_Device_Address.h"
 
+
 /* Realized interfaces */
-#include "i_Ambient_Air_Temperature.h"
-
-/* Needed interfaces */
-#include "i_One_Wire_Protocol.h"
-
-/* Events */
+#include "Ambient_Air_Temperature.h"
 
 
-class DS18B20_Ambient_Air_Temperature_Sensor : i_Ambient_Air_Temperature {
-public :
-    /*--------------------------------------------------------------------------------------------*/
-    /* Constructor */
-	DS18B20_Ambient_Air_Temperature_Sensor( void ) {}
-	DS18B20_Ambient_Air_Temperature_Sensor( const T_One_Wire_Device_Address* a_device_address );
-    void Connect_Ports( i_One_Wire_Protocol* a_one_wire_protocol);
+/* Required interfaces */
+#include "One_Wire_Protocol.h"
 
-    /*--------------------------------------------------------------------------------------------*/
-    /* Component_Type_Operations */
-	void Cyclic( void );
 
-    /*--------------------------------------------------------------------------------------------*/
-    /* Event reception points accessors */
+/*============================================================================*/
+/* Types, interfaces and macros */
+/*============================================================================*/
+#define DS18B20_ACTION_CONVERT_TEMPERATURE  0
+#define DS18B20_ACTION_READ_SCRATCHPAD      1
 
-    /*--------------------------------------------------------------------------------------------*/
-    /* Provided port accessors */
-	i_Ambient_Air_Temperature* Get_Port__Ambient_Air_Temperature( void );
-	
-	/*--------------------------------------------------------------------------------------------*/
-    /* Provided operations */
-    /* Ambient_Air_Temperature:i_Ambient_Air_Temperature */
-	void Get_Temperature( T_AMBIENT_AIR_TEMPERATURE* temperature ) override;
-	
-private :
-    /*--------------------------------------------------------------------------------------------*/
-    /* Private attributes */
-	typedef enum T_DS18B20_ACTION { CONVERT_TEMPERATURE, READ_SCRATCHPAD} T_DS18B20_ACTION;
-	const T_One_Wire_Device_Address* Device_Address;
-	T_AMBIENT_AIR_TEMPERATURE Air_Temperature = 0;
-	T_DS18B20_ACTION Last_Performed_Action = READ_SCRATCHPAD;
 
-    /*--------------------------------------------------------------------------------------------*/
-    /* Private methods */
+/*============================================================================*/
+/* Component_Type */
+/*============================================================================*/
+typedef struct {
+    T_Ambient_Air_Temperature Air_Temperature;
+    uint8_t Last_Performed_Action;
+} DS18B20_Ambient_Air_Temperature_Sensor_Var;
 
-    /*--------------------------------------------------------------------------------------------*/
-    /* Requirer_Ports */
-	i_One_Wire_Protocol* One_Wire_Comm;
+typedef struct {
 
-    /*--------------------------------------------------------------------------------------------*/
-    /* Provider ports */
+    /* Variable attributes */
+    DS18B20_Ambient_Air_Temperature_Sensor_Var* var_attr;
 
-    /*--------------------------------------------------------------------------------------------*/
-    /* Sent events */
+    /* Required interfaces */
+    const One_Wire_Protocol* One_Wire_Comm;
+    
+    /* Configuration_Parameters */
+    T_One_Wire_Device_Address Device_Address;
+    
+} DS18B20_Ambient_Air_Temperature_Sensor;
 
-    /*--------------------------------------------------------------------------------------------*/
-    /* Received events */
-};
+
+/*============================================================================*/
+/* Component_Operations */
+/*============================================================================*/
+void DS18B20__Cyclic( const DS18B20_Ambient_Air_Temperature_Sensor* Me );
+
+
+/*============================================================================*/
+/* Realized interfaces */
+/*============================================================================*/
+void DS18B20__Ambient_Air_Temperature__Get_Temperature(
+    const DS18B20_Ambient_Air_Temperature_Sensor* Me,
+    T_Ambient_Air_Temperature* temperature );
 
 #endif
