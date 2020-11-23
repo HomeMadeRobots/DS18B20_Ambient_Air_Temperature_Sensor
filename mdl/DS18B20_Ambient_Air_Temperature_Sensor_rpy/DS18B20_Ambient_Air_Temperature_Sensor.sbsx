@@ -17,18 +17,18 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
-							<_hname type="a">PSWA_Package</_hname>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Software_Package</_hname>
 							<_hid type="a">GUID afb0e42d-a399-4819-bb39-46f0fd0f0fbf</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.24.2020::12:4:41</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.24.2020::12:4:41</_modifiedTime>
+			<_modifiedTimeWeak type="a">11.23.2020::15:43:25</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::15:43:25</_modifiedTime>
 			<_lastID type="a">4</_lastID>
-			<weakCGTime type="a">4.24.2020::12:4:41</weakCGTime>
+			<weakCGTime type="a">11.23.2020::15:43:25</weakCGTime>
 			<strongCGTime type="a">1.24.2020::13:6:43</strongCGTime>
 			<_defaultComposite type="s">GUID 4741fa0e-05ae-4a71-9a2a-a64dad593028</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -1317,8 +1317,8 @@
 			</_properties>
 			<_name type="a">SD_DS18B20_Ambient_Air_Temperature_Sensor</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.24.2020::12:6:20</_modifiedTime>
-			<_lastModifiedTime type="a">4.24.2020::12:6:20</_lastModifiedTime>
+			<_modifiedTime type="a">8.6.2020::16:55:9</_modifiedTime>
+			<_lastModifiedTime type="a">8.6.2020::16:55:9</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1332,7 +1332,7 @@
 			<m_pICollaboration type="p"><ICollaboration type="e">
 				<_id type="a">GUID 051bcb83-f926-477a-9935-e8c6725f369f</_id>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">4.24.2020::11:59:51</_modifiedTime>
+				<_modifiedTime type="a">8.6.2020::16:54:43</_modifiedTime>
 				<AggregatesList type="e">
 					<value>GUID 1e8ee18f-fdf7-4f53-8ca9-17f0e6ce0013</value>
 					<value>GUID 2a70fd1e-9789-4b6d-b5c0-681f828818c4</value>
@@ -1602,7 +1602,7 @@
 				<_myState type="a">8192</_myState>
 				<_name type="a">Get_Temperature</_name>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">4.24.2020::9:19:48</_modifiedTime>
+				<_modifiedTime type="a">8.6.2020::16:54:43</_modifiedTime>
 				<m_szSequence type="a">1.</m_szSequence>
 				<m_szActualArgs type="a">-</m_szActualArgs>
 				<m_pCommunicationConnection type="r">
@@ -1650,7 +1650,7 @@
 				<_myState type="a">8192</_myState>
 				<_name type="a">Get_Temperature</_name>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">4.24.2020::9:19:40</_modifiedTime>
+				<_modifiedTime type="a">8.6.2020::16:54:43</_modifiedTime>
 				<m_szSequence type="a">2.</m_szSequence>
 				<m_szActualArgs type="a">0</m_szActualArgs>
 				<m_pCommunicationConnection type="r">
@@ -1694,7 +1694,7 @@
 				<_myState type="a">8192</_myState>
 				<_name type="a">Get_Temperature</_name>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">4.24.2020::11:56:35</_modifiedTime>
+				<_modifiedTime type="a">8.6.2020::16:54:43</_modifiedTime>
 				<m_szSequence type="a">4.</m_szSequence>
 				<m_szActualArgs type="a">-</m_szActualArgs>
 				<m_pCommunicationConnection type="r">
@@ -1742,7 +1742,7 @@
 				<_myState type="a">8192</_myState>
 				<_name type="a">Get_Temperature</_name>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">4.24.2020::11:56:35</_modifiedTime>
+				<_modifiedTime type="a">8.6.2020::16:54:43</_modifiedTime>
 				<m_szSequence type="a">5.</m_szSequence>
 				<m_szActualArgs type="a">0</m_szActualArgs>
 				<m_pCommunicationConnection type="r">
@@ -1786,7 +1786,7 @@
 				<_myState type="a">8192</_myState>
 				<_name type="a">Get_Temperature</_name>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">4.24.2020::11:58:38</_modifiedTime>
+				<_modifiedTime type="a">8.6.2020::16:54:43</_modifiedTime>
 				<m_szSequence type="a">7.</m_szSequence>
 				<m_szActualArgs type="a">-</m_szActualArgs>
 				<m_pCommunicationConnection type="r">
@@ -1834,7 +1834,7 @@
 				<_myState type="a">8192</_myState>
 				<_name type="a">Get_Temperature</_name>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">4.24.2020::11:59:4</_modifiedTime>
+				<_modifiedTime type="a">8.6.2020::16:54:43</_modifiedTime>
 				<m_szSequence type="a">8.</m_szSequence>
 				<m_szActualArgs type="a">19,5</m_szActualArgs>
 				<m_pCommunicationConnection type="r">
@@ -1878,7 +1878,7 @@
 				<_myState type="a">8192</_myState>
 				<_name type="a">Get_Temperature</_name>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">4.24.2020::11:59:51</_modifiedTime>
+				<_modifiedTime type="a">8.6.2020::16:54:43</_modifiedTime>
 				<m_szSequence type="a">10.</m_szSequence>
 				<m_szActualArgs type="a">-</m_szActualArgs>
 				<m_pCommunicationConnection type="r">
@@ -1926,7 +1926,7 @@
 				<_myState type="a">8192</_myState>
 				<_name type="a">Get_Temperature</_name>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">4.24.2020::11:59:51</_modifiedTime>
+				<_modifiedTime type="a">8.6.2020::16:54:43</_modifiedTime>
 				<m_szSequence type="a">11.</m_szSequence>
 				<m_szActualArgs type="a">19,5</m_szActualArgs>
 				<m_pCommunicationConnection type="r">
@@ -1981,7 +1981,7 @@
 					<IHandle type="e">
 					</IHandle>
 				</m_endMessage>
-				<m_length type="a">36</m_length>
+				<m_length type="a">46</m_length>
 			</IExecutionOccurrence>
 			<IExecutionOccurrence type="e">
 				<_id type="a">GUID 43498ad2-a3f6-46d9-8df8-d65407d97534</_id>
@@ -2017,7 +2017,7 @@
 					<IHandle type="e">
 					</IHandle>
 				</m_endMessage>
-				<m_length type="a">36</m_length>
+				<m_length type="a">52</m_length>
 			</IExecutionOccurrence>
 			<IExecutionOccurrence type="e">
 				<_id type="a">GUID 3b510d4a-9986-40c7-93c8-b53e03fafd3e</_id>
@@ -2251,7 +2251,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">0</m_drawBehavior>
-			<m_transform type="a">1.6875 0 0 0.0109652 822 50 </m_transform>
+			<m_transform type="a">1.6875 0 0 0.0109652 543 50 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -2305,7 +2305,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">0</m_drawBehavior>
-			<m_transform type="a">2.47917 0 0 0.0109652 373 50 </m_transform>
+			<m_transform type="a">2.47917 0 0 0.0109652 198 50 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -2359,7 +2359,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">0</m_drawBehavior>
-			<m_transform type="a">1 0 0 0.01094 58 50 </m_transform>
+			<m_transform type="a">1 0 0 0.01094 30 50 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -3440,7 +3440,7 @@ The component returns its initial value of the Ambient_Air_Temperature.</m_str>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">0.181734 0 0 0.060219 1022 105.819 </m_transform>
+			<m_transform type="a">0.181734 0 0 0.060219 742 111.819 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -3467,8 +3467,7 @@ The component returns its initial value of the Ambient_Air_Temperature.</m_str>
 				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}%0D
 \viewkind4\uc1\pard\f0\fs16 The cyclic operation has not been called yet.\par%0D
 The component returns its initial value of the Ambient_Air_Temperature.\par%0D
-}%0D
-</_textRTF>
+}</_textRTF>
 			</IDescription>
 			</m_pNoteText>
 		</CGIAnnotation>
@@ -3567,7 +3566,7 @@ The component returns its initial value of the Ambient_Air_Temperature.\par%0D
 			<m_pParent type="s">GUID 37119600-9aa7-463d-8395-22d6ec4ebce6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">The first call to the cyclic operation trigger a temperature conversion in the sensor.%0D
+					<m_str type="a">The first call to the cyclic operation triggers a temperature conversion in the sensor.%0D
 The component returns its initial value of the Ambient_Air_Temperature.</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
@@ -3584,7 +3583,7 @@ The component returns its initial value of the Ambient_Air_Temperature.</m_str>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">0.181734 0 0 0.0656935 1022 217.803 </m_transform>
+			<m_transform type="a">0.181734 0 0 0.0656935 742 223.803 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -3609,10 +3608,9 @@ The component returns its initial value of the Ambient_Air_Temperature.</m_str>
 			<m_bIsBoxStyle type="a">0</m_bIsBoxStyle>
 			<m_pNoteText type="p"><IDescription type="e">
 				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}%0D
-\viewkind4\uc1\pard\f0\fs16 The first call to the cyclic operation trigger a temperature conversion in the sensor.\par%0D
-The \ulwave component\ulnone  returns its initial value of the Ambient_Air_Temperature.\par%0D
-}%0D
-</_textRTF>
+\viewkind4\uc1\pard\f0\fs16 The first call to the cyclic operation triggers a temperature conversion in the sensor.\par%0D
+The component returns its initial value of the Ambient_Air_Temperature.\par%0D
+}</_textRTF>
 			</IDescription>
 			</m_pNoteText>
 		</CGIAnnotation>
@@ -3728,7 +3726,7 @@ The component returns the read value.</m_str>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">0.181734 0 0 0.0656935 1022 313.803 </m_transform>
+			<m_transform type="a">0.181734 0 0 0.0656935 742 319.803 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -3755,8 +3753,7 @@ The component returns the read value.</m_str>
 				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}%0D
 \viewkind4\uc1\pard\f0\fs16 The second call to the cyclic operation read the temperature value in the sensor.\par%0D
 The component returns the read value.\par%0D
-}%0D
-</_textRTF>
+}</_textRTF>
 			</IDescription>
 			</m_pNoteText>
 		</CGIAnnotation>
@@ -3871,7 +3868,7 @@ The component returns the read value.\par%0D
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">0.181734 0 0 0.0456205 1022 414.863 </m_transform>
+			<m_transform type="a">0.181734 0 0 0.0456205 742 420.863 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -3897,8 +3894,7 @@ The component returns the read value.\par%0D
 			<m_pNoteText type="p"><IDescription type="e">
 				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}%0D
 \viewkind4\uc1\pard\f0\fs16 The component returns the last read value since the value is updated a call to &quot;Cyclic&quot; on two.\par%0D
-}%0D
-</_textRTF>
+}</_textRTF>
 			</IDescription>
 			</m_pNoteText>
 		</CGIAnnotation>
@@ -3987,7 +3983,7 @@ The component returns the read value.\par%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.24.2020::9:15:17</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">11.23.2020::15:43:25</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -4012,9 +4008,9 @@ The address of the DS18B20 shall be known and set at the Component_Prototype cre
 </_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.24.2020::9:15:17</_modifiedTime>
+			<_modifiedTime type="a">11.23.2020::15:43:25</_modifiedTime>
 			<_lastID type="a">4</_lastID>
-			<weakCGTime type="a">4.24.2020::9:15:17</weakCGTime>
+			<weakCGTime type="a">11.23.2020::15:43:25</weakCGTime>
 			<strongCGTime type="a">1.24.2020::13:6:53</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -4217,7 +4213,7 @@ The address of the DS18B20 shall be known and set at the Component_Prototype cre
 							<_hm2Class type="a">IStereotype</_hm2Class>
 							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
 							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type::Operations</_hsubsystem>
-							<_hname type="a">Component_Operation</_hname>
+							<_hname type="a">OS_Operation</_hname>
 							<_hid type="a">GUID 03e6f281-8593-48b0-a435-0fc8687783f6</_hid>
 						</IHandle>
 					
@@ -4262,16 +4258,16 @@ The address of the DS18B20 shall be known and set at the Component_Prototype cre
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type</_hsubsystem>
-							<_hname type="a">Configuration_Attribute</_hname>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Configuration_Parameter</_hname>
 							<_hid type="a">GUID c7a97ee0-e497-4c57-aaf1-4aefdce59a69</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.24.2020::8:55:36</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.24.2020::8:55:36</_modifiedTime>
+			<_modifiedTimeWeak type="a">11.23.2020::15:43:25</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::15:43:25</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -4286,7 +4282,16 @@ The address of the DS18B20 shall be known and set at the Component_Prototype cre
 			<_static type="a">0</_static>
 			<_isReferenceAttr type="a">0</_isReferenceAttr>
 			<_isConstant type="a">0</_isConstant>
+			<AggregatesList type="e">
+				<value>GUID a4931a87-2920-4bcc-803f-25e9d0cc22fc</value>
+			</AggregatesList>
 		</IAttribute>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID a4931a87-2920-4bcc-803f-25e9d0cc22fc</_id>
+			<_modifiedTimeWeak type="a">11.23.2020::15:43:25</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::15:43:25</_modifiedTime>
+			<_value type="a">[ 0 0 0 0 0 0 0 0 ]</_value>
+		</ILiteralSpecification>
 		
 	</RHAPSODY-MODEL>
 	<OslcLinks type="c">
